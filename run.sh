@@ -4,15 +4,11 @@
 if [ ! -e .env.production ]
 then
 cat > .env.production << EOF
-APP_NAME=MyIdlers
+APP_NAME=shiroko
 APP_DEBUG=false
 APP_KEY=
 
-DB_CONNECTION=mysql
-DB_HOST=${DB_HOST}
-DB_DATABASE=${DB_DATABASE}
-DB_USERNAME=${DB_USERNAME}
-DB_PASSWORD=${DB_PASSWORD}
+DB_CONNECTION=sqlite
 APP_URL=${APP_URL}
 EOF
 php artisan key:generate --no-interaction --force
