@@ -4,12 +4,12 @@
         {{ __('Reseller') }}
     </x-slot>
     <div class="container" id="app">
-        <div class="card shadow mt-3">
+        <div class="card border-0 mt-3">
             <div class="card-body">
                 <a href="{{ route('reseller.create') }}" class="btn btn-primary mb-3">Add a reseller</a>
                 <x-response-alerts></x-response-alerts>
                 <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table class="table table-borderless">
                         <thead class="table-light">
                         <tr>
                             <th>Name</th>

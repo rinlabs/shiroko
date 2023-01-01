@@ -5,7 +5,7 @@
     </x-slot>
 
     <div class="container">
-        <div class="card mt-3 shadow">
+        <div class="card mt-3 border-0">
             <div class="card-body">
                 <a href="{{ route('shared.index') }}"
                    class="btn btn-primary px-4 py-1">

@@ -4,12 +4,12 @@
         {{ __('Seed boxes') }}
     </x-slot>
     <div class="container" id="app">
-        <div class="card shadow mt-3">
+        <div class="card border-0 mt-3">
             <div class="card-body">
                 <a href="{{ route('seedboxes.create') }}" class="btn btn-primary mb-3">Add a seed box</a>
                 <x-response-alerts></x-response-alerts>
                 <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table class="table table-borderless">
                         <thead class="table-light">
                         <tr class="bg-gray-100">
                             <th>Title</th>

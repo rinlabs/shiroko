@@ -4,7 +4,7 @@
         {{ __('Insert a new provider') }}
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <h4 class="mb-3">Provider information</h4>
             <x-back-button>
                 <x-slot name="href">{{ route('providers.index') }}</x-slot>

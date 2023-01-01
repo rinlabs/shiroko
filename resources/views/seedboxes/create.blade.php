@@ -4,7 +4,7 @@
         {{ __('Insert a new seed box') }}
     </x-slot>
     <div class="container">
-        <div class="card shadow mt-3">
+        <div class="card border-0 mt-3">
             <div class="card-body">
                 <h4 class="mb-3">Seed box information</h4>
                 <x-auth-validation-errors></x-auth-validation-errors>

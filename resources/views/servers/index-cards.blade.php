@@ -31,7 +31,7 @@
                     @if(!empty($servers))
                         @foreach($servers as $server)
                             <div class="col-12 col-lg-4 mb-2">
-                                <div class="card rounded h-100" style="overflow-y: scroll">
+                                <div class="card border-0 rounded h-100" style="overflow-y: scroll">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-12 col-lg-8">

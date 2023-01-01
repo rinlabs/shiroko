@@ -1,5 +1,5 @@
 <div class="card">
-    <div class="card-body text-center shadow">
+    <div class="card-body text-center">
         <div class="row">
             <h4>
                {{$value}}

@@ -7,7 +7,7 @@
         {{ __('Choose two servers to compare') }}
     </x-slot>
     <div class="container" id="app">
-        <div class="card shadow mt-3">
+        <div class="card border-0 mt-3">
             <div class="card-body">
                 <a href="{{ route('servers.index') }}" class="btn btn-primary mb-3">Servers home</a>
                 @if(count($all_servers) >= 2)

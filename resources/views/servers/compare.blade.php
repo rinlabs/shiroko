@@ -33,7 +33,7 @@
 @endsection
 <x-app-layout>
     <div class="container" id="app">
-        <div class="card shadow mt-3">
+        <div class="card border-0 mt-3">
             <div class="card-body">
                 <a href="{{ route('servers-compare-choose') }}" class="btn btn-primary mb-3">Choose others</a>
                 <div class="table-responsive">

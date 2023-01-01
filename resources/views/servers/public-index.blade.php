@@ -4,9 +4,9 @@
         {{ __('Servers') }}
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-borderless">
                     <thead class="table-light">
                     <tr class="bg-gray-100 bg-">
                         @if(Session::get('show_server_value_hostname') === 1)

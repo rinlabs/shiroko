@@ -4,7 +4,7 @@
         Edit {{ $dn->hostname }} {{$dn->dns_type}} record
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <h4 class="mb-3">DNS information</h4>
             <x-back-button>
                 <x-slot name="href">{{ route('dns.index') }}</x-slot>

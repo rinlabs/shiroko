@@ -5,11 +5,11 @@
     </x-slot>
     <div class="container" id="app">
             <x-response-alerts></x-response-alerts>
-            <x-card class="shadow mt-3">
+            <x-card class="border-0 mt-3">
                 <a href="{{ route('IPs.create') }}" class="btn btn-primary mb-3">Add IP</a>
                 <x-response-alerts></x-response-alerts>
                 <div class="table-responsive">
-                    <table class="table table-bordered" id="ips-table">
+                    <table class="table table-borderless" id="ips-table">
                         <thead class="table-light">
                         <tr>
                             <th class="text-nowrap">Type</th>

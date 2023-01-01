@@ -5,11 +5,11 @@
     </x-slot>
     <div class="container" id="app">
         <x-delete-confirm-modal></x-delete-confirm-modal>
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <a href="{{ route('domains.create') }}" class="btn btn-primary mb-3">Add a domain</a>
             <x-response-alerts></x-response-alerts>
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-borderless">
                     <thead class="table-light">
                     <tr>
                         <th class="text-nowrap">Domain</th>

@@ -4,7 +4,7 @@
         {{ __('Create a note') }}
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <x-back-button>
                 <x-slot name="href">{{ route('notes.index') }}</x-slot>
                 Go back

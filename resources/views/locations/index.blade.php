@@ -4,10 +4,10 @@
         {{ __('Locations') }}
     </x-slot>
     <div class="container" id="app">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <a href="{{ route('locations.create') }}" class="btn btn-primary mb-3">Add a location</a>
             <x-response-alerts></x-response-alerts>
-            <table class="table table-bordered" id="locations-table">
+            <table class="table table-borderless" id="locations-table">
                 <thead class="table-light">
                 <tr class="bg-gray-100">
                     <th>Location</th>

@@ -4,7 +4,7 @@
         {{ __('Insert a new domain') }}
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <h4 class="mb-3">Domain information</h4>
             <x-back-button>
                 <x-slot name="href">{{ route('domains.index') }}</x-slot>

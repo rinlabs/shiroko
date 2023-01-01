@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="{{ asset('css/fa.min.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
     @yield('css_style')
     <script src="{{ asset('js/vue.min.js') }}"></script>
 </head>

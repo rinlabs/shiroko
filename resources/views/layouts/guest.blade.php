@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
     <x-form-style></x-form-style>
 
     <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>

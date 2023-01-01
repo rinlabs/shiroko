@@ -4,7 +4,7 @@
         Edit account
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <x-response-alerts></x-response-alerts>
             <form action="{{ route('account.update',Auth::user()->id) }}" method="POST">
                 @csrf

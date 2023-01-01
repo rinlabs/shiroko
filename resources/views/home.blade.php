@@ -69,10 +69,10 @@
                 @if(Session::get('due_soon_amount') > 0)
                     <h3 class="my-3">Due soon</h3>
                     @if(!empty($information['due_soon']))
-                        <div class="card shadow mt-3">
+                        <div class="card border-0 mt-3">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
+                                    <table class="table table-borderless">
                                         <thead class="table-light">
                                         <tr>
                                             <th class="text-nowrap">Name</th>
@@ -159,10 +159,10 @@
                 @if(Session::get('recently_added_amount') > 0)
                     <h3 class="mt-4">Recently added</h3>
                     @if(!empty($information['newest']))
-                        <div class="card shadow mt-3">
+                        <div class="card border-0 mt-3">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
+                                    <table class="table table-borderless">
                                         <thead class="table-light">
                                         <tr>
                                             <th class="text-nowrap">Name</th>

@@ -20,12 +20,12 @@
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <x-card class="shadow mt-3">
+                <x-card class="border-0 mt-3">
                     <a href="{{ route('servers.create') }}" class="btn btn-primary mb-3">Add server</a>
                     <a href="{{ route('servers-compare-choose') }}" class="btn btn-primary mb-3 ms-2">Compare
                         servers</a>
                     <div class="table-responsive">
-                        <table class="table table-bordered">
+                        <table class="table table-borderless">
                             <thead class="table-light">
                             <tr class="bg-gray-100">
                                 <th>Name</th>

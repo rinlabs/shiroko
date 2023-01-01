@@ -7,7 +7,7 @@
         {{ __('Choose two YABS to compare') }}
     </x-slot>
     <div class="container" id="app">
-        <div class="card shadow mt-3">
+        <div class="card border-0 mt-3">
             <div class="card-body">
                 <a href="{{ route('yabs.index') }}" class="btn btn-primary mb-3">YABS home</a>
                 @if(count($all_yabs) >= 2)

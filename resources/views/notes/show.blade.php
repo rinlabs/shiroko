@@ -4,7 +4,7 @@
         {{ __('Note') }}
     </x-slot>
     <div class="container">
-        <x-card class="shadow mt-3">
+        <x-card class="border-0 mt-3">
             <div class="row">
                 <div class="col-12 mb-2">
                     <h2>
