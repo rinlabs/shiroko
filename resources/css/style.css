@@ -29,9 +29,13 @@ Custom styles go in here
 
 .card {
     background:hsla(0,0%,100%,.14) !important;
-    border-radius:16px !important;
+    border-radius:0.25rem !important;
     box-shadow:0 4px 30px rgba(0,0,0,.1) !important;
     backdrop-filter:blur(5.5px) !important;
     -webkit-backdrop-filter:blur(5.5px) !important;
     border: none !important;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
