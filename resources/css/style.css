@@ -1,6 +1,7 @@
 /*
 Custom styles go in here
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .modal-mask {
     position: fixed;
@@ -28,14 +29,31 @@ Custom styles go in here
 }
 
 .card {
-    background:hsla(0,0%,100%,.14) !important;
-    border-radius:0.25rem !important;
+    background:hsla(0,0%,100%,.28) !important;
+    border-radius:0.45rem !important;
     box-shadow:0 4px 30px rgba(0,0,0,.1) !important;
-    backdrop-filter:blur(5.5px) !important;
-    -webkit-backdrop-filter:blur(5.5px) !important;
+    backdrop-filter:blur(7.5px) !important;
+    -webkit-backdrop-filter:blur(7.5px) !important;
     border: none !important;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
-  }
+    background-size: cover;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.text-nowrap{
+    font-weight: 500;
+}
+
+.text-red{
+    color: #dc3545;
+}
