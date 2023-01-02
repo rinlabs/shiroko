@@ -1,7 +1,7 @@
-@section("title", "{$seedbox_data->title} seed box")
+@section("title", "{$seedbox_data->title} seedbox")
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Seed box details') }}
+        {{ __('Seedbox details') }}
     </x-slot>
     <div class="container">
         <x-card class="border-0 mt-3">

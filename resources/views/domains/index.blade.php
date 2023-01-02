@@ -10,7 +10,7 @@
             <x-response-alerts></x-response-alerts>
             <div class="table-responsive">
                 <table class="table table-borderless">
-                    <thead class="table-light">
+                    <thead >
                     <tr>
                         <th class="text-nowrap">Domain</th>
                         <th class="text-nowrap">Owned since</th>
@@ -51,7 +51,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td class="px-4 py-2 border text-red-500" colspan="3">No domains found.</td>
+                            <td class="px-4 py-2 text-red" colspan="3">No domains found.</td>
                         </tr>
                     @endif
                     </tbody>

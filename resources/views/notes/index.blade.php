@@ -10,7 +10,7 @@
             <x-response-alerts></x-response-alerts>
             <div class="table-responsive">
                 <table class="table table-borderless">
-                    <thead class="table-light">
+                    <thead >
                     <tr>
                         <th class="text-nowrap">Service</th>
                         <th class="text-nowrap">Type</th>
@@ -72,7 +72,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td class="border text-red-500">No notes found.</td>
+                            <td class="px-4 py-2 text-red">No notes found.</td>
                             <td></td>
                             <td></td>
                             <td></td>

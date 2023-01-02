@@ -1,16 +1,16 @@
-@section('title', 'Seed boxes')
+@section('title', 'Seedboxes')
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Seed boxes') }}
+        {{ __('Seedboxes') }}
     </x-slot>
     <div class="container" id="app">
         <div class="card border-0 mt-3">
             <div class="card-body">
-                <a href="{{ route('seedboxes.create') }}" class="btn btn-primary mb-3">Add a seed box</a>
+                <a href="{{ route('seedboxes.create') }}" class="btn btn-primary mb-3">Add a seedbox</a>
                 <x-response-alerts></x-response-alerts>
                 <div class="table-responsive">
                     <table class="table table-borderless">
-                        <thead class="table-light">
+                        <thead >
                         <tr class="bg-gray-100">
                             <th>Title</th>
                             <th>Type</th>
@@ -76,7 +76,7 @@
                             @endforeach
                         @else
                             <tr>
-                                <td class="px-4 py-2 border text-red-500" colspan="3">No seed boxes found.</td>
+                                <td class="px-4 py-2 text-red" colspan="3">No seedboxes found.</td>
                             </tr>
                         @endif
                         </tbody>

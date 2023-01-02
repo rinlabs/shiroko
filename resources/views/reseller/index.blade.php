@@ -10,7 +10,7 @@
                 <x-response-alerts></x-response-alerts>
                 <div class="table-responsive">
                     <table class="table table-borderless">
-                        <thead class="table-light">
+                        <thead >
                         <tr>
                             <th>Name</th>
                             <th>Type</th>
@@ -53,7 +53,7 @@
                             @endforeach
                         @else
                             <tr>
-                                <td class="px-4 py-2 border text-red-500" colspan="3">No reseller hosting found.</td>
+                                <td class="px-4 py-2 text-red" colspan="3">No reseller hosting found.</td>
                             </tr>
                         @endif
                         </tbody>

@@ -26,7 +26,7 @@
                         servers</a>
                     <div class="table-responsive">
                         <table class="table table-borderless">
-                            <thead class="table-light">
+                            <thead >
                             <tr class="bg-gray-100">
                                 <th>Name</th>
                                 <th class="text-center"><i class="fas fa-box" title="Virt"></i></th>
@@ -111,7 +111,7 @@
                         servers</a>
                     <div class="table-responsive">
                         <table class="table table-bordered">
-                            <thead class="table-light">
+                            <thead >
                             <tr class="bg-gray-100">
                                 <th>Name</th>
                                 <th class="text-center"><i class="fas fa-box" title="Virt"></i></th>
@@ -177,7 +177,7 @@
                                 @endforeach
                             @else
                                 <tr>
-                                    <td class="px-4 py-2 border text-red-500" colspan="3">No non-active servers found.
+                                    <td class="px-4 py-2 text-red" colspan="3">No non-active servers found.
                                     </td>
                                 </tr>
                             @endif

@@ -8,7 +8,7 @@
             <div class="card-body">
                 <a href="{{ route('seedboxes.index') }}"
                    class="btn btn-primary px-4 py-1">
-                    Back to seed boxes
+                    Back to seedboxes
                 </a>
                 <x-auth-validation-errors></x-auth-validation-errors>
                 <form action="{{ route('seedboxes.update', $seedbox_data->id) }}" method="POST">
@@ -201,7 +201,7 @@
                     <div>
                         <button type="submit"
                                 class="btn btn-success px-4 py-1 mt-3">
-                            Update seed box
+                            Update seedbox
                         </button>
                     </div>
                 </form>

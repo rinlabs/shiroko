@@ -1,12 +1,12 @@
-@section("title", "Add a seed box")
+@section("title", "Add a seedbox")
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Insert a new seed box') }}
+        {{ __('Insert a new seedbox') }}
     </x-slot>
     <div class="container">
         <div class="card border-0 mt-3">
             <div class="card-body">
-                <h4 class="mb-3">Seed box information</h4>
+                <h4 class="mb-3">Seedbox information</h4>
                 <x-auth-validation-errors></x-auth-validation-errors>
                 <a href="{{ route('shared.index') }}"
                    class="btn btn-primary py-0 px-4 mb-4">
@@ -156,7 +156,7 @@
                     <div>
                         <button type="submit"
                                 class="btn btn-success py-0 px-4 mt-2">
-                            Insert Seed box
+                            Insert Seedbox
                         </button>
                     </div>
                 </form>
