@@ -14,4 +14,5 @@ RUN touch /app/database/database.sqlite
 ENV APP_ENV production
 ENV DB_CONNECTION=sqlite
 RUN php artisan migrate:fresh --seed --force
+RUN php artisan storage:link
 ENTRYPOINT ["/app/run.sh"]
