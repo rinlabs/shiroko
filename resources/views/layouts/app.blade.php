@@ -17,6 +17,7 @@
     @endif
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('storage/bg.css') }}">
 
     @yield('css_links')
     @yield('style')

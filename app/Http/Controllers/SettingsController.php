@@ -6,12 +6,14 @@ use App\Models\Settings;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+use Storage;
 
 class SettingsController extends Controller
 {
     public function index()
     {
-        return view('settings.index', ['setting' => Settings::where('id', 1)->first()]);
+        $css = Storage::disk('public')->get('bg.css');
+        return view('settings.index', ['setting' => Settings::where('id', 1)->first(), 'css' => $css]);
     }
 
     public function update(Request $request)
@@ -33,6 +35,8 @@ class SettingsController extends Controller
             'currency' => 'required|string|size:3',
             'sort_on' => 'required|integer|between:1,10',
         ]);
+
+       Storage::disk('public')->put('bg.css',$request->custom_css);
 
        $update =  DB::table('settings')
             ->where('id', 1)
