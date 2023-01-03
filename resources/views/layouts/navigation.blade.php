@@ -1,6 +1,8 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm" aria-label="Eleventh navbar example">
+<nav class="navbar navbar-expand-md navbar-light" aria-label="Eleventh navbar example">
     <div class="container">
-        <a class="navbar-brand" href="{{route('/')}}">shiroko</a>
+        <a class="navbar-brand" style="padding-top: 0" href="{{route('/')}}">
+            <img src="/shiroko_logo.png" height="23" alt="shiroko"/>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
                 aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

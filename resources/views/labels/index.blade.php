@@ -8,7 +8,7 @@
             <a href="{{ route('labels.create') }}" class="btn btn-primary mb-3">Add a label</a>
             <x-response-alerts></x-response-alerts>
             <table class="table table-borderless" id="labels-table">
-                <thead class="table-light">
+                <thead >
                 <tr>
                     <th class="text-nowrap">Name</th>
                     <th class="text-nowrap">Actions</th>
@@ -33,7 +33,7 @@
                     @endforeach
                 @else
                     <tr>
-                        <td class="px-4 py-2 border text-red-500" colspan="3">No labels found.</td>
+                        <td class="px-4 py-2 text-red" colspan="3">No labels found.</td>
                     </tr>
                 @endif
                 </tbody>

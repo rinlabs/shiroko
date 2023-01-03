@@ -16,7 +16,7 @@
             <x-response-alerts></x-response-alerts>
             <div class="table-responsive">
                 <table class="table table-borderless">
-                    <thead class="table-light">
+                    <thead >
                     <tr>
                         <th class="text-nowrap">Type</th>
                         <th class="text-nowrap">Hostname</th>
@@ -49,7 +49,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td class="px-4 py-2 border text-red-500" colspan="3">No DNSes found.</td>
+                            <td class="px-4 py-2 text-red" colspan="3">No DNS entries found.</td>
                         </tr>
                     @endif
                     </tbody>

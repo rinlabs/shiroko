@@ -9,8 +9,8 @@
             <a href="{{ route('yabs.compare-choose') }}" class="btn btn-success mb-3">Compare YABS</a>
             <x-response-alerts></x-response-alerts>
             <div class="table-responsive">
-                <table class="table table-bordered">
-                    <thead class="table-light">
+                <table class="table table-borderless">
+                    <thead>
                     <tr class="bg-gray-100">
                         <th>Server</th>
                         <th>CPU</th>
@@ -69,7 +69,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td class="px-4 py-2 border text-red-500" colspan="3">No YABS found.</td>
+                            <td class="px-4 py-2 text-red" colspan="3">No YABS found.</td>
                         </tr>
                     @endif
                     </tbody>

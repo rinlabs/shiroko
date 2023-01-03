@@ -73,7 +73,7 @@
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-borderless">
-                                        <thead class="table-light">
+                                        <thead>
                                         <tr>
                                             <th class="text-nowrap">Name</th>
                                             <th class="text-nowrap">Type</th>
@@ -163,7 +163,7 @@
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-borderless">
-                                        <thead class="table-light">
+                                        <thead>
                                         <tr>
                                             <th class="text-nowrap">Name</th>
                                             <th class="text-nowrap">Type</th>

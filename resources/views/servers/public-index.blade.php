@@ -7,7 +7,7 @@
         <x-card class="border-0 mt-3">
             <div class="table-responsive">
                 <table class="table table-borderless">
-                    <thead class="table-light">
+                    <thead >
                     <tr class="bg-gray-100 bg-">
                         @if(Session::get('show_server_value_hostname') === 1)
                             <th class="nowrap">Name</th>
@@ -118,7 +118,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td class="px-4 py-2 border text-red-500" colspan="3">No servers found.</td>
+                            <td class="px-4 py-2 text-red" colspan="3">No servers found.</td>
                         </tr>
                     @endif
                     </tbody>

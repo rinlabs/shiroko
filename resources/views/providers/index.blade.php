@@ -8,7 +8,7 @@
             <a href="{{ route('providers.create') }}" class="btn btn-primary mb-3">Add a provider</a>
             <x-response-alerts></x-response-alerts>
             <table class="table table-borderless" id="providers-table">
-                <thead class="table-light">
+                <thead >
                 <tr class="bg-gray-100">
                     <th>Provider</th>
                     <th>Actions</th>
@@ -32,7 +32,7 @@
                     @endforeach
                 @else
                     <tr>
-                        <td class="px-4 py-2 border text-red-500 mt-" colspan="3">No providers found.</td>
+                        <td class="px-4 py-2 text-red" colspan="3">No providers found.</td>
                     </tr>
                 @endif
                 </tbody>

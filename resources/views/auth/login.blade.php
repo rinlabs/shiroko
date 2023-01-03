@@ -6,7 +6,8 @@
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors"/>
 
-            <h3 class="text-center mb-4">My idlers</h3>
+            <!-- <h3 class="text-center mb-4">My idlers</h3> -->
+            <img src="shiroko_logo.png" class="w-50 mx-auto d-block mb-3" alt="shiroko"/>
             <form method="POST" action="{{ route('login') }}">
                 @csrf
                 <div class="form-floating mb-3">
