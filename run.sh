@@ -12,6 +12,7 @@ DB_CONNECTION=sqlite
 APP_URL=${APP_URL}
 EOF
 php artisan key:generate --no-interaction --force
+php artisan storage:link
 fi
 
 #php artisan migrate:fresh --seed
