@@ -34,9 +34,11 @@ GeekBench 5 scores to do easier comparing and sorting.
 🐋 Docker
 ```sh
 docker run \
+  --name shiroko\
+  -d\
   -p 8000:8000\
   -e APP_URL=https://... \
-  ghcr.io/rinlabs/shiroko:latest
+  ghcr.io/rinlabs/shiroko:latest shiroko
 ```
 
 ## 🖧 Adding a YABS benchmark
