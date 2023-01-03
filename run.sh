@@ -14,5 +14,5 @@ EOF
 php artisan key:generate --no-interaction --force
 fi
 
-# php artisan migrate:fresh --seed
+#php artisan migrate:fresh --seed
 php artisan serve --host=0.0.0.0 --port=8000 --env=production
