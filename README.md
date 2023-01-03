@@ -1,4 +1,4 @@
-# <img src="https://github.com/rinlabs/shiroko/blob/main/public/shiroko_logo.png?raw=true" height="128" />
+# <img src="https://github.com/rinlabs/shiroko/blob/dev/public/shiroko_color.png?raw=true" height="128" />
 
 A self hosted web app for displaying, organizing and storing information about servers (VPS), shared & reseller hosting, seed boxes,
 domains,
@@ -236,8 +236,6 @@ or
 **Make sure YABS output starts at the first line which is:**
 
 ```# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #```
-
-Logo icons created by Freepik - Flaticon
 
 ## 🗔 Screenshots
 
