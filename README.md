@@ -1,4 +1,4 @@
-# <img src="https://github.com/rinlabs/shiroko/blob/dev/public/shiroko_color.png?raw=true" height="128" />
+# <img src="https://github.com/rinlabs/shiroko/blob/dev/public/shiroko_color.png?raw=true" height="96" />
 
 A self hosted web app for displaying, organizing and storing information about servers (VPS), shared & reseller hosting, seed boxes,
 domains,
