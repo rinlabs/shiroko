@@ -13,6 +13,12 @@
             <form action="{{ route('settings.update', 1) }}" method="POST">
                 @csrf
                 @method('PUT')
+                <div class="row mt-3">
+                    <div class="col mb-3">
+                        <p>Custom CSS</p>
+                        <textarea name="custom_css" class="form-control" rows="6" value="{{ $css }}">{{ $css }}</textarea>
+                    </div>
+                </div>
                 <div class="row mt-2">
                     <div class="col-12 col-md-6 mb-3">
                         <x-yes-no-select title="Use dark mode" name="dark_mode" value="{{ $setting->dark_mode }}"></x-yes-no-select>

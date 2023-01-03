@@ -8,7 +8,7 @@
         <meta name="api_token" content="{{ Auth::user()->api_token }}">
     @endif
 
-    <title>@yield('title') - @if (config()->has('app.name')) {{ config('app.name') }} @else My idlers @endif</title>
+    <title>@yield('title') - @if (config()->has('app.name')) {{ config('app.name') }} @else shiroko @endif</title>
 
     @if(Session::get('dark_mode'))
         <link rel="stylesheet" href="{{ asset('css/dark.css') }}">
@@ -17,6 +17,7 @@
     @endif
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('storage/bg.css') }}">
 
     @yield('css_links')
     @yield('style')
