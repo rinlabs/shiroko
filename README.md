@@ -1,4 +1,4 @@
-# My idlers
+# <img src="https://github.com/rinlabs/shiroko/blob/main/public/shiroko_logo.png?raw=true" height="128" />
 
 A self hosted web app for displaying, organizing and storing information about servers (VPS), shared & reseller hosting, seed boxes,
 domains,
@@ -8,45 +8,9 @@ Despite what the name infers this self hosted web app isn't just for storing idl
 a [YABS](https://github.com/masonr/yet-another-bench-script) output you can get disk & network speed values along with
 GeekBench 5 scores to do easier comparing and sorting.
 
-[![Generic badge](https://img.shields.io/badge/version-2.1.9-blue.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Laravel-9.0-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/PHP-8.1-purple.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Bootstrap-5.1-pink.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Laravel-9.0-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/PHP-8.1-purple.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/Bootstrap-5.1-pink.svg)](https://shields.io/)
 
-<img src="https://raw.githubusercontent.com/cp6/my-idlers/main/public/My%20Idlers%20logo.jpg" width="128" height="128" />
-
-[Demo site](https://demo.myidlers.com/)
-
-**Note:** Create, Update and Delete are disabled on demo site.
-
-## Project sponsor
-
-Currently seeking a project sponsor
-
-## 2.1.9 changes (2nd December 2022):
-
-### NPM / Laravel mix now in use
-
-```shell
-npm install
-npm run prod
-```
-
-#### Please run the following if updating from existing install:
-
-```shell
-php artisan migrate
-php artisan route:cache
-php artisan cache:clear
-```
-
-* Added & implemented NPM webpack
-* Added compiled assets
-* Added notes (Servers, shared, reseller, domains, DNS and IPs)
-* Fixed create views default provider is no longer the former sponsor
-
-## Requires
-
-* PHP 8.1
-
-## Features
+## 🪄 Features
 
 * Add servers
 * Add shared hosting
@@ -66,48 +30,16 @@ php artisan cache:clear
 * Easy to edit values
 * Assign notes
 
-## Install
-
-* Run `git clone https://github.com/cp6/my-idlers.git` into your directory of choice
-* Run `composer install`
-* Run `cp .env.example .env`
-* Edit (If needed) MySQL details in .env
-* Run `php artisan key:generate`
-* Run `php artisan make:database my_idlers` to create database
-* Run `php artisan migrate:fresh --seed` to create tables and seed data
-* Run `php artisan serve`
-
-## Updating
-
-If you already have at least version 2.0 installed:
-
-* Run `git clone https://github.com/cp6/my-idlers.git`
-* Run `composer install`
-* Run `php artisan migrate`
-* Run `php artisan route:cache`
-* Run `php artisan cache:clear`
-
-## Run using Docker
-
-```
+## 🚀 Getting Started
+🐋 Docker
+```sh
 docker run \
   -p 8000:8000\
   -e APP_URL=https://... \
-  -e DB_HOST=... \
-  -e DB_DATABASE=... \
-  -e DB_USERNAME=... \
-  -e DB_PASSWORD=... \
-  ghcr.io/cp6/my-idlers:latest
-docker exec ... php artisan migrate:fresh --seed --force  # Set up database one time
+  ghcr.io/rinlabs/shiroko:latest
 ```
 
-## Managed Hosting
-
-Run with a single click on [PikaPods.com](https://www.pikapods.com/)
-
-[![PikaPods](https://www.pikapods.com/static/run-button.svg)](https://www.pikapods.com/pods?run=my-idlers)
-
-## Adding a YABS benchmark
+## 🖧 Adding a YABS benchmark
 
 yabs.sh now has JSON formatted response and can POST the output directly from calling the script.
 
@@ -119,7 +51,7 @@ Example yabs.sh call to POST the result:
 
 `curl -sL yabs.sh | bash -s -- -s "https://yourdomain.com/api/yabs/SERVERID/USERAPIKEYISHERE"`
 
-## API endpoints
+## 🌐 API endpoints
 
 For GET requests the header must have `Accept: application/json` and your API token (found at `/account`)
 
@@ -279,7 +211,7 @@ Delete a server
 
 `/servers/ID`
 
-## Notes
+## 🗈 Notes
 
 **Public viewable listings**
 
@@ -307,7 +239,7 @@ or
 
 Logo icons created by Freepik - Flaticon
 
-## Screenshots for v2
+## 🗔 Screenshots
 
 [![My idlers screenshot1](https://cdn.write.corbpie.com/wp-content/uploads/2022/03/My-idlers-v2-home-2.jpg)](https://cdn.write.corbpie.com/wp-content/uploads/2022/03/My-idlers-v2-home-2.jpg)
 
