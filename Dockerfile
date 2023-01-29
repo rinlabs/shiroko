@@ -9,9 +9,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 WORKDIR /app
 COPY . .
 RUN composer install
-RUN touch /app/database/database.sqlite
 
 ENV APP_ENV production
 ENV DB_CONNECTION=sqlite
-RUN php artisan migrate:fresh --seed --force
 ENTRYPOINT ["/app/run.sh"]
